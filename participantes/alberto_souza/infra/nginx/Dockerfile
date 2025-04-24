@@ -1,4 +1,4 @@
-FROM nginx:1.21.1-alpine
+FROM nginx:1.28.0-alpine
 
 RUN wget "http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz" -O nginx.tar.gz
 
